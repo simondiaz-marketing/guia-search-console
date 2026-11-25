@@ -720,6 +720,10 @@ footer a {
     padding: 0 20px;
   }
 
+  .layout {
+    z-index: auto;
+  }
+
   .side,
   .layout.sidebar-collapsed .side {
     position: fixed;
