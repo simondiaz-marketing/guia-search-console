@@ -23,6 +23,25 @@ Si tu web ya está publicada, puedes ir directamente a la sección de Search Con
 
 Añadir una web a Search Console o solicitar su indexación no garantiza que Google la indexe, cuánto tardará ni en qué posición aparecerá. La herramienta sirve para supervisar el estado y el rendimiento de tu sitio.
 
+## Estructura del proyecto
+
+La página principal permanece en la raíz y los recursos estáticos se agrupan en `assets/`:
+
+```text
+guia-search-console/
+├── index.html
+├── README.md
+└── assets/
+    ├── css/
+    │   └── styles.css
+    ├── img/
+    │   └── favicon.webp
+    └── js/
+        └── script.js
+```
+
+Para publicar el sitio estático, configura la carpeta raíz del proyecto como directorio de publicación.
+
 ## Enlaces útiles
 
 - [Abrir Google Search Console](https://search.google.com/search-console/)
