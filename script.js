@@ -12,11 +12,11 @@
 
   const brand = document.querySelector('.brand');
   if (brand) {
-    brand.href = portfolioUrl;
-    brand.target = '_blank';
-    brand.rel = 'noopener noreferrer';
+    brand.href = '#inicio';
+    brand.removeAttribute('target');
+    brand.removeAttribute('rel');
     brand.innerHTML = 'Simón Díaz <span>· Marketing Digital</span>';
-    brand.setAttribute('aria-label', 'Portfolio de Simón Díaz, abre en una pestaña nueva');
+    brand.setAttribute('aria-label', 'Volver al inicio de la guía');
   }
 
   const videoSection = document.createElement('section');
